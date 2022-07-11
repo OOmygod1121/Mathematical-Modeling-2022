@@ -1,11 +1,13 @@
 function [prediction, params, W] = TimeSeries(y,mode,varargin)
     % function
-    %    包含
+    %    包含简单移动平移法、指数平滑法、差分指数平滑法、自适应滤波法。
     %
     % @param y:观测序列，列向量
     % @param mode：预测方法
     %       1 -> 简单移动平均法
-    %       2 -> 
+    %       2 ->指数平滑法 
+    %       3 ->差分指数平滑法
+    %       4 ->自适应滤波法
     %
     % @return
     % 
